@@ -17,6 +17,10 @@ mongoose.connect(process.env.Mongo_link)
     console.error('Database connection error:', error);
   });
 
+  app.get("/",(req,res)=>
+  {
+    res.sendFile(__dirname+"/build/index.html")
+  })
 
 // Protected Route
 app.post('/contact',
