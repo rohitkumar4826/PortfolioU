@@ -3,7 +3,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const Message = require('./models/Message'); 
 const cors = require("cors");
-const port=process.env.PORT || 5500;
+const port=process.env.PORT || 3000;
 
 const app = express();
 app.use(express.json());
