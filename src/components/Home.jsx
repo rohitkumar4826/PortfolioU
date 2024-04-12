@@ -1,7 +1,6 @@
 import React from 'react'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import Typewriter from "typewriter-effect";
-
 const Home = () => {
   return (
     <div name="home" className="w-full h-screen bg-gradient-to-l from-[#21073C] to-[#3A1078]">
